@@ -59,4 +59,19 @@ document.getElementById("heading")
 
 ```
 
+---
+
+## ✅ Common Methods:
+
+| Method                          | Description                                   |
+| ------------------------------- | --------------------------------------------- |
+| `getElementById("id")`          | Select one element by ID                      |
+| `getElementsByClassName("cls")` | Select all elements by class (HTMLCollection) |
+| `getElementsByTagName("tag")`   | Select all elements by tag                    |
+| `querySelector("selector")`     | Select the **first** match (CSS style)        |
+| `querySelectorAll("selector")`  | Select **all** matches (NodeList)             |
+
+
+
+
 [Download DOM Cheatsheet](asset/javascript_dom_cheatsheet.pdf)
