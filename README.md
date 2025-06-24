@@ -36,4 +36,27 @@ document
 
 ```
 
+## 🧠 Why is DOM Important?
+
+It allows you to:
+
+- Add/change/remove HTML elements ✅
+
+- Handle user events (click, type, scroll, etc.)✅
+
+- Change CSS dynamically ✅
+
+- Make dynamic UI like forms, games, animations, etc. ✅
+
+
+## 🔍 Accessing the DOM
+
+Everything starts from the document object:
+
+```javascript 
+
+document.getElementById("heading")
+
+```
+
 [Download DOM Cheatsheet](asset/javascript_dom_cheatsheet.pdf)
