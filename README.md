@@ -1,12 +1,12 @@
 # Learn DOM concept In JavaScript
 
-Let’s dive deep into the DOM (Document Object Model) in JavaScript — but in a clear, beginner-friendly, and structured way. This is a core concept for web development and essential for any frontend developer like you!
+Let’s dive deep into the `DOM` (Document Object Model) in JavaScript — but in a clear, beginner-friendly, and structured way. This is a core concept for web development and essential for any frontend developer like you!
 
 ## 🌐 What is the DOM?
 
 ### DOM = Document Object Model
 
-🌟The DOM is a tree-like structure that represents your HTML document as JavaScript objects. It allows JavaScript to interact with, modify, or read the HTML and CSS of a webpage.
+🌟The `DOM` is a `tree-like` structure that represents your HTML document as `JavaScript objects`. It allows JavaScript to interact with, modify, or read the HTML and CSS of a webpage.
 
 ## 📜 HTML Example:
 
