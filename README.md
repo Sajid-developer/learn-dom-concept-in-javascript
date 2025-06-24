@@ -53,9 +53,9 @@ It allows you to:
 
 Everything starts from the document object:
 
-```javascript 
+```js 
 
-document.getElementById("heading")
+document.getElementById("heading");
 
 ```
 
@@ -72,6 +72,86 @@ document.getElementById("heading")
 | `querySelectorAll("selector")`  | Select **all** matches (NodeList)             |
 
 
+---
 
+## 🧪 Example:
+
+### HTML:
+
+```html 
+
+<h1 id="title">Welcome</h1>
+
+```
+
+### JavaScript:
+
+```js 
+
+const title = document.getElementById("title");
+title.innerText = "Hello Sajid!"; // Changes text
+
+```
+
+---
+
+## 🛠️ Manipulating DOM Elements
+
+### ☑️ 1. Change Text or HTML
+
+```js
+
+element.innerText = "New Text";   // Just text
+element.innerHTML = "<b>Bold</b>"; // Includes HTML
+
+```
+
+### ☑️ 2. Change Style
+
+```js 
+
+element.style.color = "red";
+element.style.backgroundColor = "black";
+
+```
+
+### ☑️ 3. Change Attributes
+
+```js 
+
+element.setAttribute("class", "active");
+const cls = element.getAttribute("class");
+
+```
+
+### ☑️ 4. Add/Remove Classes
+
+```js 
+
+element.classList.add("highlight");
+element.classList.remove("highlight");
+element.classList.toggle("highlight");
+
+```
+
+### ☑️ 5. Create New Elements
+
+```js 
+
+const newPara = document.createElement("p");
+newPara.innerText = "This is new!";
+document.body.appendChild(newPara);
+
+```
+
+### ☑️ 6. Remove Elements
+
+```js 
+
+element.remove();
+
+```
+
+---
 
 [Download DOM Cheatsheet](asset/javascript_dom_cheatsheet.pdf)
