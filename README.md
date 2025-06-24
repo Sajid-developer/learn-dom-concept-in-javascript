@@ -154,4 +154,76 @@ element.remove();
 
 ---
 
-[Download DOM Cheatsheet](asset/javascript_dom_cheatsheet.pdf)
+## ⚡ Handling Events (Event Listeners)
+
+### ✅ Example: Button Click
+
+```html 
+
+<button id="btn">Click Me</button>
+
+```
+
+```js 
+
+document.getElementById("btn").addEventListener("click", function () {
+  alert("Button clicked!");
+});
+
+```
+
+## 🧠 Events You Can Handle:
+
+| Event Type  | Description         |
+| ----------- | ------------------- |
+| `click`     | Mouse click         |
+| `mouseover` | Mouse hovers over   |
+| `keydown`   | Key is pressed      |
+| `submit`    | Form is submitted   |
+| `load`      | Page is loaded      |
+| `input`     | User types in field |
+
+---
+
+## 📌 DOM Properties
+
+- `innerText` → text content (no HTML)
+
+- `innerHTML` → full HTML inside
+
+- `value` → input field value
+
+- `className` → string of class
+
+- `children` → child elements
+
+- `parentElement` → parent node
+
+- `style` → access inline styles
+
+---
+
+## 🎯 Real-World Use Cases:
+
+| Use Case                         | DOM Feature Used                 |
+| -------------------------------- | -------------------------------- |
+| Interactive quiz/game            | DOM + events + manipulation      |
+| Form validation (name, email)    | Input value + events             |
+| Dark/light theme toggle          | classList.toggle + style updates |
+| Display API data (e.g., weather) | DOM create/update + fetch()      |
+
+
+---
+
+## Download Cheatsheet
+
+➡️ [Download DOM Cheatsheet](asset/javascript_dom_cheatsheet.pdf)
+
+---
+
+
+## Show your support
+
+If you find it helpful in your learning journey then kindly give a star ⭐ to this repo to help others discover it.
+
+Thanks for reading 🙏🏼.
