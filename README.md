@@ -1,4 +1,4 @@
-# Learn DOM concept In JavaScript
+# Learn about DOM concept In JavaScript
 
 Let’s dive deep into the `DOM` (Document Object Model) in JavaScript — but in a clear, beginner-friendly, and structured way. This is a core concept for web development and essential for any frontend developer like you!
 
